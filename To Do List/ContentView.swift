@@ -9,8 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            HStack {
+                Text("To Do List 📝")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.leading)
+                Spacer()
+                    
+                Button(action: {
+                                    
+                }) {
+                    Text("+")
+                        .font(.largeTitle)
+                        .fontWeight(.light)
+                }
+                
+                
+                
+                
+            } .padding()
+            
+            Spacer()
+            
+        }
+        
     }
 }
 

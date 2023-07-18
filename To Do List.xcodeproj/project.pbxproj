@@ -11,6 +11,8 @@
 		84C47FFA2A66DE3C00731FC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C47FF92A66DE3C00731FC4 /* ContentView.swift */; };
 		84C47FFC2A66DE4200731FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C47FFB2A66DE4200731FC4 /* Assets.xcassets */; };
 		84C47FFF2A66DE4200731FC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C47FFE2A66DE4200731FC4 /* Preview Assets.xcassets */; };
+		84C480082A66DEDE00731FC4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C480072A66DEDE00731FC4 /* ToDoItem.swift */; };
+		84C4800B2A66E76100731FC4 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C4800A2A66E76100731FC4 /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		84C47FFB2A66DE4200731FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84C47FFE2A66DE4200731FC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84C480002A66DE4200731FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C480072A66DEDE00731FC4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		84C4800A2A66E76100731FC4 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				84C47FFB2A66DE4200731FC4 /* Assets.xcassets */,
 				84C480002A66DE4200731FC4 /* Info.plist */,
 				84C47FFD2A66DE4200731FC4 /* Preview Content */,
+				84C480072A66DEDE00731FC4 /* ToDoItem.swift */,
+				84C4800A2A66E76100731FC4 /* NewToDoView.swift */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				84C47FFA2A66DE3C00731FC4 /* ContentView.swift in Sources */,
 				84C47FF82A66DE3C00731FC4 /* To_Do_ListApp.swift in Sources */,
+				84C480082A66DEDE00731FC4 /* ToDoItem.swift in Sources */,
+				84C4800B2A66E76100731FC4 /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
